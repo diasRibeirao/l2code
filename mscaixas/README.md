@@ -271,14 +271,13 @@ Exemplo de saída:
 
 #### [**http://localhost:8081/mscaixas/swagger-ui/index.html**](http://localhost:8081/mscaixas/swagger-ui/index.html)
 
-![image](https://github.com/diasRibeirao/avaliacao-ekan/assets/29930488/5130221d-47b7-4013-ae78-cce8bc405746)
-
+![image](https://github.com/user-attachments/assets/ef884732-bb66-42b9-9b69-6c44b74e9245)
 
 ## Executando o Endpoints
 
 #### Inserir o usuário e senha na entrada de texto do modal aberto ao clicar no botão com cadeado no topo "Authorize":
 
-![image](https://github.com/diasRibeirao/avaliacao-ekan/assets/29930488/e5aeb51b-3ec6-4751-ba2b-113ba63866fc)
+![image](https://github.com/user-attachments/assets/076a881b-8710-4242-887f-7c0fd6989994)
 
 ```bash
   # Permissão de administrador [roles("ADMIN")]:
