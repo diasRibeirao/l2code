@@ -138,7 +138,11 @@ public class RoomScheduleService {
 ## Requisitos para executar o projeto
 - Git instalado - [**Download**](https://git-scm.com/downloads).
 - JDK 21 instalado - [**Download**](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
+- Docker Desktop for Windows - [**Download**](https://docs.docker.com/desktop/setup/install/windows-install/).
+  ### Opção executar Linux (Ubuntu)
+- Docker for Ubuntu - [**Download**](https://docs.docker.com/engine/install/ubuntu/).
 
+  
 ## Iniciando
 ``` bash
   # Clonar o projeto:
@@ -159,12 +163,21 @@ public class RoomScheduleService {
 
   # Rodar a aplicação com o CMD:
   $ Executar o seguinte comando: java -jar target/aulas-0.0.1-SNAPSHOT.jar
-
 ```
+
+## Executando o projeto com Docker
+```bash
+  # Criar imagem docker:
+  $ docker build -t aulas .
+
+  # Executa um contêiner baseado na imagem mscaixas:
+  $ docker run -p 8082:8082 --name aulas-container aulas
+```
+
 
 ## Banco de Dados
 
-#### [**http://localhost:8082/aulas/h2-console/login.jsp**](http://localhost:8082/aulas/h2-console/login.jsp)
+#### [**http://localhost:8082/h2-console/login.jsp**](http://localhost:8082/h2-console/login.jsp)
 ```bash
  spring.datasource.driverClassName=org.h2.Driver
  spring.datasource.url=jdbc:h2:mem:aulasdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
@@ -176,17 +189,18 @@ public class RoomScheduleService {
 
 #### [**http://localhost:8082/swagger-ui/index.html**](http://localhost:8082/swagger-ui/index.html)
 
-![image](https://github.com/diasRibeirao/avaliacao-ekan/assets/29930488/5130221d-47b7-4013-ae78-cce8bc405746)
+![image](https://github.com/user-attachments/assets/6360b285-52c5-4d75-bdc8-41970abe3135)
+
 
 ### Caixas
 ```bash
   # A quantidade de horas que cada professor tem comprometido em aulas:
   # Método: GET
-  http://localhost:8082/aulas/carga-horaria
+  http://localhost:8082/aulas/horarios-salas
 
   # Lista de salas com horários livres e ocupados
   # Método: GET
-  http://localhost:8082/aulas/horarios-salas
+  http://localhost:8082/aulas/carga-horaria
   
 ```
 
