@@ -1,7 +1,7 @@
 # Avaliação Técnica Java L2 Code
 
 ## Exercício 1 - Eempacotamento
-- mscaixas - [**Projeto**](https://github.com/diasRibeirao/l2code/tree/master/aulas).
+- mscaixas - [**Projeto**](https://github.com/diasRibeirao/l2code/tree/master/mscaixas).
 
 ## Exercício 2 - Horários de aula
-- aulas - [**Projeto**](https://github.com/diasRibeirao/l2code/tree/master/mscaixas).
+- aulas - [**Projeto**](https://github.com/diasRibeirao/l2code/tree/master/aulas).
