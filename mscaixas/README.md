@@ -223,6 +223,8 @@ Exemplo de saída:
 - Git instalado - [**Download**](https://git-scm.com/downloads).
 - JDK 21 instalado - [**Download**](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html).
 - Docker Desktop for Windows - [**Download**](https://docs.docker.com/desktop/setup/install/windows-install/).
+  ### Opção executar Linux (Ubuntu)
+- Docker for Ubuntu - [**Download**](https://docs.docker.com/engine/install/ubuntu/).
 
 ## Iniciando
 ``` bash
